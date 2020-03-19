@@ -14,10 +14,11 @@
             <h1>Solitude et Reflets</h1>
             <nav>
                 <ul>
-                    <li><a href="home.php" title="Accueil" alt="Aller à l'Acceuil">Accueil</a></li>
-                    <li><a href="gallery.php" title="Galerie" alt="Aller à la galerie">Galerie</a></li>
-                    <li><a href="reservation.php" title="Reservation" alt="Aller Réserver">Reservation</a></li>
-                    <li><a href="contact.php" title="Contacte" alt="nous contacter">Contacte</a></li>
+                    <li><a href="../index.php" title="Accueil" alt="Aller à l'Acceuil">Accueil</a></li>
+                    <li><a href="../pages/account.php" title="Compte" alt="aller sur son compte">Compte</a></li>
+                    <li><a href="../pages/gallery.php" title="Galerie" alt="Aller à la galerie">Galerie</a></li>
+                    <li><a href="../pages/reservation.php" title="Reservation" alt="Aller Réserver">Reservation</a></li>
+                    <li><a href="../pages/contact.php" title="Contacte" alt="nous contacter">Contacte</a></li>
                 </ul>
             </nav>
         </header>
