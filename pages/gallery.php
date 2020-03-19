@@ -1,4 +1,4 @@
 <?php include('../layouts/nav.php'); ?>
-
-    </body>
-</html>
+        <main>
+        </main>
+<?php include('../layouts/footer.php'); ?>
