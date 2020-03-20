@@ -21,4 +21,18 @@
                     <li><a href="../pages/contact.php" title="Contacte" alt="nous contacter">Contacte</a></li>
                 </ul>
             </nav>
+            <?php 
+                if( isset($_SESSION['isConnected']) && $_SESSION['isConnected'] === true){
+            ?>
+            <button type="submit" name="logout">Se deconnecter</button>
+            <?php 
+                }else{ 
+            ?>
+            <a href="../pages/account.php">Vous n'êtes pas connecté</a>
+                <!--if connected {
+                      <button type="submit"> Se déconnecter</button>
+                }else{
+                      <a href="../pages/account.php"> Se Connecter</a>
+                }-->
+            <?php } ?> 
         </header>
