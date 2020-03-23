@@ -37,6 +37,74 @@ header #log{
     text-align: right;
     
 }
+/*index*/
+main{
+    align-items: center;
+}
+/*caroussel index*/
+@keyframes slidy {
+    0% { left: 0%; }
+    10% { left: 0%; }
+    25% { left: -100%; }
+    40% { left: -100%; }
+    50% { left: -200%; }
+    65% { left: -200%; }
+    85% { left: -300%; }
+    100% { left: -300%; }
+                 }
+
+.carousel {
+    display: block;
+    grid-area: carousel;
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden; /*to hide the overflowing elements of the div*/
+    margin: 5px 0;
+    margin-bottom: 5%;
+    border: 4px white double;
+    border-radius: 5px;
+    margin-left: 300px;
+
+}
+
+.carousel figure {
+    position: relative; /*to enable the move of the figure during the animation*/
+    width: 500%; 
+    font-size: 0;
+    animation: 15s slidy infinite;
+}
+
+.carousel figure img {
+    width: 20%;
+    height: 400px;
+    overflow: hidden; 
+}
+/*bio index*/
+.bio{
+    height: 500px;
+}
+
+.imgAuthor{
+    float: left;
+    margin: 10px;
+}
+.seeMore{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.seeMore a{
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: cornflowerblue;
+    height: 50px;
+    align-items: center;
+    border-radius: 10px;
+}
 /* connect page*/
 h1{
     text-align: center;
