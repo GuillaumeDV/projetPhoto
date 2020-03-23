@@ -32,7 +32,7 @@
         <h1>Se connecter</h1>
         <form method="POST">
             <div>
-                <label for="name">Ton nom :</label>
+                <label for="name">Nom :</label>
                 <input type="text" id="name" name="user_name">
             </div>
             <div>
