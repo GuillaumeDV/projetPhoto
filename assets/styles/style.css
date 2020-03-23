@@ -51,4 +51,32 @@ form div{
     text-align: center;
     margin: 20px;
 }
+/*Gallery*/
+.gallery{
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*footer*/
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: royalblue;
+    text-align: center;
+    align-items: center;
 
+}
+footer a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+footer a:hover{
+    background-color: blanchedalmond;
+}

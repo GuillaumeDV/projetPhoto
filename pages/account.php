@@ -21,9 +21,11 @@
         <?php 
              if( isset($_SESSION['isConnected']) && $_SESSION['isConnected'] === true){
         ?>
+        <div class="afterconnect">
         <h1>Vous êtes connecté</h1>
         <p>Votre Mail est : <?php echo $_SESSION['user_mail'] ?></p><br/>
         <p>Votre Nom est : <?php echo $_SESSION['user_name'] ?></p><br/>
+        </div>
         <!--<div><p>Souhaitez vous recevoir nos actualités par mail ? </p></div>-->
         <?php 
              }else{
